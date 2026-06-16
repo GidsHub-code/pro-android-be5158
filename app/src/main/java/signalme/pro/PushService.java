@@ -1,4 +1,4 @@
-package signalme.pro;
+package plantwatch.pro;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
