@@ -12,11 +12,11 @@ if (googleServicesJson.exists()) {
 def hasReleaseSigning = System.getenv("KEYSTORE_PATH") && System.getenv("KEYSTORE_PASSWORD") && System.getenv("KEY_ALIAS") && System.getenv("KEY_PASSWORD")
 
 android {
-    namespace "signalme.pro"
+    namespace "plantwatch.pro"
     compileSdk 35
 
     defaultConfig {
-        applicationId "signalme.pro"
+        applicationId "plantwatch.pro"
         minSdk 23
         targetSdk 35
         versionCode 7
