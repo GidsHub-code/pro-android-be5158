@@ -1,4 +1,4 @@
-package signalme.pro;
+package plantwatch.pro;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
